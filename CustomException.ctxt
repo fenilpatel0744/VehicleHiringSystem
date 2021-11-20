@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CustomException
+comment0.text=\r\n\ CustomException\ is\ used\ to\ handle\ custom\ exception\r\n\ \r\n\ @author\ Dhruv\r\n\ @version\ 23th\ October\ 2017\r\n
+comment1.params=errorMessage
+comment1.target=CustomException(java.lang.String)
+comment1.text=\r\n\ Constructor\ of\ the\ class\r\n\ \r\n\ @param\ errorMessage\ message\ of\ error\r\n
+numComments=2

@@ -1,0 +1,10 @@
+car,4WD1MN,Nissan Micra,2008,petrol,true,1000CC 			
+car,UPC129,Toyota Yaris,2005,petrol,true,1300CC
+car,WWC028,KIA RIO,2009,petrol,false,1000CC
+car,KUM24H,Toyota Corolla Sedan,2002,diesel,true,1500CC
+car,D48KU0,Hyundai Accent,2012,petrol,true,2000CC
+van,CTR34W,Toyota Commuter Bus,2010,diesel,false,16
+van,BU68JL,Toyota Hiace,2002,diesel,true,10
+van,L982DH,Ford Transit,2000,petrol,true,8
+van,1MN5TU,Hyundai iLoad,2012,petrol,true,12
+van,CL278F,Mitsubishi Express,2004,petrol,false,9

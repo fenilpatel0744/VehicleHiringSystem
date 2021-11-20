@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Start
+comment0.text=\r\n\ Start\ class\ is\ useful\ to\ run\ this\ project\r\n\ \r\n\ @author\ Dhruv\r\n\ @version\ 23th\ October\ 2017\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Program\ execution\ is\ start\ from\ this\ method.\r\n\ \r\n\ @param\ args\ Unused\r\n\ @throws\ IOException\r\n
+comment2.params=
+comment2.target=int\ menu()
+numComments=3

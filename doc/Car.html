@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<!-- NewPage -->
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Car</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" title="Style">
+</head>
+<body>
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<h2 title="Class Car" class="title">Class Car</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li>java.lang.Object</li>
+<li>
+<ul class="inheritance">
+<li>Vehicle</li>
+<li>
+<ul class="inheritance">
+<li>Car</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<hr>
+<br>
+<pre>public class <span class="typeNameLabel">Car</span>
+extends Vehicle</pre>
+<div class="block">The Car class is inherited from Vehicle class and contains some extra variables with implementation of abstract methods.</div>
+<dl>
+<dt><span class="simpleTagLabel">Author:</span></dt>
+<dd>Fenil</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="Car.html#Car-java.lang.String:A-">Car</a></span>(java.lang.String[]&nbsp;data)</code>
+<div class="block">Constructor of class Car</div>
+</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr id="i0" class="altColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Car.html#calculateLateCharges-int-">calculateLateCharges</a></span>(int&nbsp;hours)</code>
+<div class="block">Abstract method to calculate late charges of reservation</div>
+</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code>java.util.ArrayList&lt;java.lang.String&gt;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Car.html#details--">details</a></span>()</code>
+<div class="block">Abstract method to display details of reservation</div>
+</td>
+</tr>
+<tr id="i2" class="altColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Car.html#getEngineCapacity--">getEngineCapacity</a></span>()</code>
+<div class="block">Method is used to return capacity of engine</div>
+</td>
+</tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Car.html#setEngineCapacity-java.lang.String-">setEngineCapacity</a></span>(java.lang.String&nbsp;engineCapacity)</code>
+<div class="block">Method is used to set capacity of engine</div>
+</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.Vehicle">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;Vehicle</h3>
+<code>getFuelType, getModelName, getRegNumber, getYearOfReg, isAvailability, setAvailability, setFuelType, setModelName, setRegNumber, setYearOfReg</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+<code>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="Car-java.lang.String:A-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>Car</h4>
+<pre>public&nbsp;Car(java.lang.String[]&nbsp;data)
+    throws CustomException</pre>
+<div class="block">Constructor of class Car</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>data</code> - array of string contains data from text file</dd>
+<dt><span class="throwsLabel">Throws:</span></dt>
+<dd><code>CustomException</code></dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="calculateLateCharges-int-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>calculateLateCharges</h4>
+<pre>public&nbsp;int&nbsp;calculateLateCharges(int&nbsp;hours)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from class:&nbsp;<code>Vehicle</code></span></div>
+<div class="block">Abstract method to calculate late charges of reservation</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code>calculateLateCharges</code>&nbsp;in class&nbsp;<code>Vehicle</code></dd>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>hours</code> - total late returning hours</dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>int penulty charge</dd>
+</dl>
+</li>
+</ul>
+<a name="details--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>details</h4>
+<pre>public&nbsp;java.util.ArrayList&lt;java.lang.String&gt;&nbsp;details()</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from class:&nbsp;<code>Vehicle</code></span></div>
+<div class="block">Abstract method to display details of reservation</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code>details</code>&nbsp;in class&nbsp;<code>Vehicle</code></dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+</dl>
+</li>
+</ul>
+<a name="getEngineCapacity--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getEngineCapacity</h4>
+<pre>public&nbsp;java.lang.String&nbsp;getEngineCapacity()</pre>
+<div class="block">Method is used to return capacity of engine</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>String return capacity of engine</dd>
+</dl>
+</li>
+</ul>
+<a name="setEngineCapacity-java.lang.String-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>setEngineCapacity</h4>
+<pre>public&nbsp;void&nbsp;setEngineCapacity(java.lang.String&nbsp;engineCapacity)</pre>
+<div class="block">Method is used to set capacity of engine</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>engineCapacity</code> - capacity of engine</dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+</body>
+</html>

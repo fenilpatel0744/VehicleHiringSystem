@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Car
+comment0.text=\r\n\ The\ Car\ class\ is\ inherited\ from\ Vehicle\ class\ and\ contains\ some\ extra\ variables\ with\ implementation\ of\ abstract\ methods.\r\n\ \r\n\ @author\ Dhruv\r\n\ @version\ 24\ October\ 2017\r\n
+comment1.params=data
+comment1.target=Car(java.lang.String[])
+comment1.text=\r\n\ Constructor\ of\ class\ Car\r\n\ \r\n\ @param\ data\ array\ of\ string\ contains\ data\ from\ text\ file\r\n\ @throws\ CustomException\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getEngineCapacity()
+comment2.text=\r\n\ Method\ is\ used\ to\ return\ capacity\ of\ engine\r\n\ \r\n\ @return\ String\ return\ capacity\ of\ engine\r\n
+comment3.params=engineCapacity
+comment3.target=void\ setEngineCapacity(java.lang.String)
+comment3.text=\r\n\ Method\ is\ used\ to\ set\ capacity\ of\ engine\r\n\ \r\n\ @param\ engineCapacity\ capacity\ of\ engine\r\n
+comment4.params=hours
+comment4.target=int\ calculateLateCharges(int)
+comment4.text=\r\n\ Method\ is\ used\ to\ calculate\ late\ charges\ of\ car\ type\ reservation.\r\n\ \r\n\ @see\ Vehicle\#calculateLateCharges(int)\r\n
+comment5.params=
+comment5.target=java.util.ArrayList\ details()
+comment5.text=\r\n\ Method\ is\ used\ to\ display\ details\ of\ object\ of\ this\ car.\r\n\ \r\n\ @see\ Vehicle\#display()\r\n
+numComments=6

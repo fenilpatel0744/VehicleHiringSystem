@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FileUtility
+comment0.text=\r\n\ This\ class\ is\ useful\ to\ read\ data\ from\ file\ and\ write\ data\ into\ file.\r\n\ \r\n\ @author\ Dhruv\r\n\ @version\ 23th\ October\ 2017\r\n
+comment1.params=fileName
+comment1.target=java.util.ArrayList\ readFromFile(java.lang.String)
+comment1.text=\r\n\ Method\ is\ used\ to\ read\ data\ from\ file\r\n\ \r\n\ @param\ fileName\ name\ of\ file\r\n\ @return\ ArrayList<String>\ List\ of\ data\ from\ file\r\n\ @throws\ IOException\r\n
+comment2.params=fileName\ data
+comment2.target=void\ writeToFile(java.lang.String,\ java.util.ArrayList)
+comment2.text=\r\n\ Method\ is\ used\ to\ writedata\ into\ the\ file.\r\n\ \r\n\ @param\ fileName\ name\ of\ file\r\n\ @param\ datadetails\r\n\ @throws\ IOException\r\n
+comment3.params=errorMessage
+comment3.target=void\ errorLogger(java.lang.String)
+comment3.text=\r\n\ Method\ is\ used\ to\ write\ error\ message\ in\ file\r\n\ \r\n\ @param\ errorMessage\ error\ message\r\n
+numComments=4

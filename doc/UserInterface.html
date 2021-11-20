@@ -1,0 +1,376 @@
+<!DOCTYPE HTML>
+<!-- NewPage -->
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>UserInterface</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" title="Style">
+</head>
+<body>
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<h2 title="Class UserInterface" class="title">Class UserInterface</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li>java.lang.Object</li>
+<li>
+<ul class="inheritance">
+<li>UserInterface</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<hr>
+<br>
+<pre>public class <span class="typeNameLabel">UserInterface</span>
+extends java.lang.Object</pre>
+<div class="block">The UserInterface class is used to take user input to perform specific task and call methods of business logic based on user selection.</div>
+<dl>
+<dt><span class="simpleTagLabel">Author:</span></dt>
+<dd>Fenil</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="UserInterface.html#UserInterface-Company-">UserInterface</a></span>(Company&nbsp;pCompany)</code>
+<div class="block">Constructor for object of UserInterface class</div>
+</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr id="i0" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#displayAvailableVehicles-java.util.ArrayList-">displayAvailableVehicles</a></span>(java.util.ArrayList&lt;Vehicle&gt;&nbsp;availableVehicles)</code>
+<div class="block">Method is used to display available vehicles to user console.</div>
+</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#displayReservationDetails-java.util.ArrayList-">displayReservationDetails</a></span>(java.util.ArrayList&lt;Reservation&gt;&nbsp;reservationList)</code>
+<div class="block">Method is used to display reservation details to user console.</div>
+</td>
+</tr>
+<tr id="i2" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#loadCustomers--">loadCustomers</a></span>()</code>
+<div class="block">Method is used to load customers detail from text file, if file is not available than user can select another file.</div>
+</td>
+</tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#loadReservations--">loadReservations</a></span>()</code>
+<div class="block">Method is used to load reservation detail from text file, if file is not available than user can select another file.</div>
+</td>
+</tr>
+<tr id="i4" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#loadVehicles--">loadVehicles</a></span>()</code>
+<div class="block">Method is used to load vehicles detail from text file, if file is not available than user can select another file.</div>
+</td>
+</tr>
+<tr id="i5" class="rowColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#menu--">menu</a></span>()</code>
+<div class="block">Method is used to print user menu to user console.</div>
+</td>
+</tr>
+<tr id="i6" class="altColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#menuForFileHandeling--">menuForFileHandeling</a></span>()</code>
+<div class="block">Method is used to show menu for file handling</div>
+</td>
+</tr>
+<tr id="i7" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#reserveVehicle--">reserveVehicle</a></span>()</code>
+<div class="block">Method is used to reserve specific vehicle for customer</div>
+</td>
+</tr>
+<tr id="i8" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#returnVehicle--">returnVehicle</a></span>()</code>
+<div class="block">Method is used to return vehicle based on user reservation details</div>
+</td>
+</tr>
+<tr id="i9" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#run--">run</a></span>()</code>
+<div class="block">Method is used to call method based on user selection.</div>
+</td>
+</tr>
+<tr id="i10" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#showAvailableVehicles--">showAvailableVehicles</a></span>()</code>
+<div class="block">Method is used to fetch available vehicles and to display user console.</div>
+</td>
+</tr>
+<tr id="i11" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#showCustomerReservations--">showCustomerReservations</a></span>()</code>
+<div class="block">Method is used to find reservation list for perticular user.</div>
+</td>
+</tr>
+<tr id="i12" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#showNotReturnedVehicles--">showNotReturnedVehicles</a></span>()</code>
+<div class="block">Method is used to find details of not returned vehicles on time.</div>
+</td>
+</tr>
+<tr id="i13" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#showVehicleReservations--">showVehicleReservations</a></span>()</code>
+<div class="block">Method is used to find all reservation details for particular vehicle.</div>
+</td>
+</tr>
+<tr id="i14" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="UserInterface.html#writeReservationList--">writeReservationList</a></span>()</code>
+<div class="block">Method is used to write reservation details in text file.</div>
+</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+<code>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="UserInterface-Company-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>UserInterface</h4>
+<pre>public&nbsp;UserInterface(Company&nbsp;pCompany)</pre>
+<div class="block">Constructor for object of UserInterface class</div>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="displayAvailableVehicles-java.util.ArrayList-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>displayAvailableVehicles</h4>
+<pre>public&nbsp;void&nbsp;displayAvailableVehicles(java.util.ArrayList&lt;Vehicle&gt;&nbsp;availableVehicles)</pre>
+<div class="block">Method is used to display available vehicles to user console.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>availableVehicles</code> - available vehicles for registration</dd>
+</dl>
+</li>
+</ul>
+<a name="displayReservationDetails-java.util.ArrayList-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>displayReservationDetails</h4>
+<pre>public&nbsp;void&nbsp;displayReservationDetails(java.util.ArrayList&lt;Reservation&gt;&nbsp;reservationList)</pre>
+<div class="block">Method is used to display reservation details to user console.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>reservationList</code> - list of reservation details</dd>
+</dl>
+</li>
+</ul>
+<a name="loadCustomers--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>loadCustomers</h4>
+<pre>public&nbsp;void&nbsp;loadCustomers()</pre>
+<div class="block">Method is used to load customers detail from text file, if file is not available than user can select another file.</div>
+</li>
+</ul>
+<a name="loadReservations--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>loadReservations</h4>
+<pre>public&nbsp;void&nbsp;loadReservations()</pre>
+<div class="block">Method is used to load reservation detail from text file, if file is not available than user can select another file.</div>
+</li>
+</ul>
+<a name="loadVehicles--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>loadVehicles</h4>
+<pre>public&nbsp;void&nbsp;loadVehicles()</pre>
+<div class="block">Method is used to load vehicles detail from text file, if file is not available than user can select another file.</div>
+</li>
+</ul>
+<a name="menu--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>menu</h4>
+<pre>public&nbsp;int&nbsp;menu()</pre>
+<div class="block">Method is used to print user menu to user console.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>int selected user choice</dd>
+</dl>
+</li>
+</ul>
+<a name="menuForFileHandeling--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>menuForFileHandeling</h4>
+<pre>public&nbsp;int&nbsp;menuForFileHandeling()</pre>
+<div class="block">Method is used to show menu for file handling</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>int user choice</dd>
+</dl>
+</li>
+</ul>
+<a name="reserveVehicle--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>reserveVehicle</h4>
+<pre>public&nbsp;void&nbsp;reserveVehicle()</pre>
+<div class="block">Method is used to reserve specific vehicle for customer</div>
+</li>
+</ul>
+<a name="returnVehicle--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>returnVehicle</h4>
+<pre>public&nbsp;void&nbsp;returnVehicle()</pre>
+<div class="block">Method is used to return vehicle based on user reservation details</div>
+</li>
+</ul>
+<a name="run--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>run</h4>
+<pre>public&nbsp;void&nbsp;run()</pre>
+<div class="block">Method is used to call method based on user selection.</div>
+</li>
+</ul>
+<a name="showAvailableVehicles--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>showAvailableVehicles</h4>
+<pre>public&nbsp;void&nbsp;showAvailableVehicles()</pre>
+<div class="block">Method is used to fetch available vehicles and to display user console.</div>
+</li>
+</ul>
+<a name="showCustomerReservations--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>showCustomerReservations</h4>
+<pre>public&nbsp;void&nbsp;showCustomerReservations()</pre>
+<div class="block">Method is used to find reservation list for perticular user.</div>
+</li>
+</ul>
+<a name="showNotReturnedVehicles--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>showNotReturnedVehicles</h4>
+<pre>public&nbsp;void&nbsp;showNotReturnedVehicles()</pre>
+<div class="block">Method is used to find details of not returned vehicles on time.</div>
+</li>
+</ul>
+<a name="showVehicleReservations--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>showVehicleReservations</h4>
+<pre>public&nbsp;void&nbsp;showVehicleReservations()</pre>
+<div class="block">Method is used to find all reservation details for particular vehicle.</div>
+</li>
+</ul>
+<a name="writeReservationList--">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>writeReservationList</h4>
+<pre>public&nbsp;void&nbsp;writeReservationList()</pre>
+<div class="block">Method is used to write reservation details in text file.</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+</body>
+</html>

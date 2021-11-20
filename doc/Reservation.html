@@ -1,0 +1,470 @@
+<!DOCTYPE HTML>
+<!-- NewPage -->
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Reservation</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" title="Style">
+</head>
+<body>
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<h2 title="Class Reservation" class="title">Class Reservation</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li>java.lang.Object</li>
+<li>
+<ul class="inheritance">
+<li>Reservation</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<hr>
+<br>
+<pre>public class <span class="typeNameLabel">Reservation</span>
+extends java.lang.Object</pre>
+<div class="block">The Reservation class is inherited from Vehicle class and contains some extra variables with implementation of abstract methods.</div>
+<dl>
+<dt><span class="simpleTagLabel">Author:</span></dt>
+<dd>Fenil</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field.summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Field Summary table, listing fields, and an explanation">
+<caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Field and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>static java.util.Comparator&lt;<a href="Reservation.html" title="class in &lt;Unnamed&gt;">Reservation</a>&gt;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#dateComparator">dateComparator</a></span></code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="Reservation.html#Reservation--">Reservation</a></span>()</code>
+<div class="block">Empty constructor of Reservation</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="Reservation.html#Reservation-Customer-Vehicle-java.time.LocalDateTime-int-java.time.LocalDateTime-java.lang.String-">Reservation</a></span>(Customer&nbsp;customer,
+           Vehicle&nbsp;vehicle,
+           java.time.LocalDateTime&nbsp;resDateTime,
+           int&nbsp;period,
+           java.time.LocalDateTime&nbsp;pickupDateTime,
+           java.lang.String&nbsp;pickupLocation)</code>
+<div class="block">Constructor for reservation class</div>
+</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd">&nbsp;</span></span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr id="i0" class="altColor">
+<td class="colFirst"><code>Customer</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#getCustomer--">getCustomer</a></span>()</code>
+<div class="block">Method is used to return object of Customer</div>
+</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code>java.time.LocalDateTime</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#getPickupDateTime--">getPickupDateTime</a></span>()</code>
+<div class="block">Method is used to return pickup data and time</div>
+</td>
+</tr>
+<tr id="i2" class="altColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#getPickupLocation--">getPickupLocation</a></span>()</code>
+<div class="block">Method is used to return pickup location</div>
+</td>
+</tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#getReservationPeriod--">getReservationPeriod</a></span>()</code>
+<div class="block">Method is used to return total reservation period in hour</div>
+</td>
+</tr>
+<tr id="i4" class="altColor">
+<td class="colFirst"><code>java.time.LocalDateTime</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#getReservDateTime--">getReservDateTime</a></span>()</code>
+<div class="block">Method is used to return reservation date and time</div>
+</td>
+</tr>
+<tr id="i5" class="rowColor">
+<td class="colFirst"><code>java.time.LocalDateTime</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#getReturnDateTime--">getReturnDateTime</a></span>()</code>
+<div class="block">Method is used to return returning date and time of vehicle</div>
+</td>
+</tr>
+<tr id="i6" class="altColor">
+<td class="colFirst"><code>Vehicle</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#getVehicle--">getVehicle</a></span>()</code>
+<div class="block">Method is used to return object of Vehicle</div>
+</td>
+</tr>
+<tr id="i7" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#setCustomer-Customer-">setCustomer</a></span>(Customer&nbsp;customer)</code>
+<div class="block">Method is used to set the object of Customer</div>
+</td>
+</tr>
+<tr id="i8" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#setPickupDateTime-java.time.LocalDateTime-">setPickupDateTime</a></span>(java.time.LocalDateTime&nbsp;pickupDateTime)</code>
+<div class="block">Method is used to set pickup data and time</div>
+</td>
+</tr>
+<tr id="i9" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#setPickupLocation-java.lang.String-">setPickupLocation</a></span>(java.lang.String&nbsp;pickupLocation)</code>
+<div class="block">Method is used to set pickup location</div>
+</td>
+</tr>
+<tr id="i10" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#setReservationPeriod-int-">setReservationPeriod</a></span>(int&nbsp;reservationPeriod)</code>
+<div class="block">Method is used to set  total reservation period in hour</div>
+</td>
+</tr>
+<tr id="i11" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#setReservDateTime-java.time.LocalDateTime-">setReservDateTime</a></span>(java.time.LocalDateTime&nbsp;reservDateTime)</code>
+<div class="block">Method is used to set reservation date and time</div>
+</td>
+</tr>
+<tr id="i12" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#setReturnDateTime-java.time.LocalDateTime-">setReturnDateTime</a></span>(java.time.LocalDateTime&nbsp;returnDateTime)</code>
+<div class="block">Method is used to set returning date and time of vehicle</div>
+</td>
+</tr>
+<tr id="i13" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="Reservation.html#setVehicle-Vehicle-">setVehicle</a></span>(Vehicle&nbsp;vehicle)</code>
+<div class="block">Method is used to set the object of Vehicle</div>
+</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+<code>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ============ FIELD DETAIL =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field.detail">
+<!--   -->
+</a>
+<h3>Field Detail</h3>
+<a name="dateComparator">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>dateComparator</h4>
+<pre>public static&nbsp;java.util.Comparator&lt;<a href="Reservation.html" title="class in &lt;Unnamed&gt;">Reservation</a>&gt; dateComparator</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor.detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="Reservation--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>Reservation</h4>
+<pre>public&nbsp;Reservation()</pre>
+<div class="block">Empty constructor of Reservation</div>
+</li>
+</ul>
+<a name="Reservation-Customer-Vehicle-java.time.LocalDateTime-int-java.time.LocalDateTime-java.lang.String-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>Reservation</h4>
+<pre>public&nbsp;Reservation(Customer&nbsp;customer,
+                   Vehicle&nbsp;vehicle,
+                   java.time.LocalDateTime&nbsp;resDateTime,
+                   int&nbsp;period,
+                   java.time.LocalDateTime&nbsp;pickupDateTime,
+                   java.lang.String&nbsp;pickupLocation)</pre>
+<div class="block">Constructor for reservation class</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>customer</code> - object of Customer class</dd>
+<dd><code>vehicle</code> - object of Vehicle class</dd>
+<dd><code>resDateTime</code> - reservation date and time</dd>
+<dd><code>period</code> - total time for reservation</dd>
+<dd><code>pickupDateTime</code> - date and time of pickup</dd>
+<dd><code>pickupLocation</code> - location of pickup</dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method.detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="getCustomer--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getCustomer</h4>
+<pre>public&nbsp;Customer&nbsp;getCustomer()</pre>
+<div class="block">Method is used to return object of Customer</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>Customer object of Customer</dd>
+</dl>
+</li>
+</ul>
+<a name="getPickupDateTime--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getPickupDateTime</h4>
+<pre>public&nbsp;java.time.LocalDateTime&nbsp;getPickupDateTime()</pre>
+<div class="block">Method is used to return pickup data and time</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>LocalDateTime pickup data and time</dd>
+</dl>
+</li>
+</ul>
+<a name="getPickupLocation--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getPickupLocation</h4>
+<pre>public&nbsp;java.lang.String&nbsp;getPickupLocation()</pre>
+<div class="block">Method is used to return pickup location</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>String pickup location</dd>
+</dl>
+</li>
+</ul>
+<a name="getReservationPeriod--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getReservationPeriod</h4>
+<pre>public&nbsp;int&nbsp;getReservationPeriod()</pre>
+<div class="block">Method is used to return total reservation period in hour</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>int reservation period</dd>
+</dl>
+</li>
+</ul>
+<a name="getReservDateTime--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getReservDateTime</h4>
+<pre>public&nbsp;java.time.LocalDateTime&nbsp;getReservDateTime()</pre>
+<div class="block">Method is used to return reservation date and time</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>LocalDateTime reservation date and time</dd>
+</dl>
+</li>
+</ul>
+<a name="getReturnDateTime--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getReturnDateTime</h4>
+<pre>public&nbsp;java.time.LocalDateTime&nbsp;getReturnDateTime()</pre>
+<div class="block">Method is used to return returning date and time of vehicle</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>LocalDateTime returning date and time of vehicle</dd>
+</dl>
+</li>
+</ul>
+<a name="getVehicle--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getVehicle</h4>
+<pre>public&nbsp;Vehicle&nbsp;getVehicle()</pre>
+<div class="block">Method is used to return object of Vehicle</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>Vehicle object of Vehicle</dd>
+</dl>
+</li>
+</ul>
+<a name="setCustomer-Customer-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setCustomer</h4>
+<pre>public&nbsp;void&nbsp;setCustomer(Customer&nbsp;customer)</pre>
+<div class="block">Method is used to set the object of Customer</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>customer</code> - object of Customer</dd>
+</dl>
+</li>
+</ul>
+<a name="setPickupDateTime-java.time.LocalDateTime-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setPickupDateTime</h4>
+<pre>public&nbsp;void&nbsp;setPickupDateTime(java.time.LocalDateTime&nbsp;pickupDateTime)</pre>
+<div class="block">Method is used to set pickup data and time</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>pickupDateTime</code> - pickup data and time</dd>
+</dl>
+</li>
+</ul>
+<a name="setPickupLocation-java.lang.String-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setPickupLocation</h4>
+<pre>public&nbsp;void&nbsp;setPickupLocation(java.lang.String&nbsp;pickupLocation)</pre>
+<div class="block">Method is used to set pickup location</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>pickupLocation</code> - pickup location</dd>
+</dl>
+</li>
+</ul>
+<a name="setReservationPeriod-int-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setReservationPeriod</h4>
+<pre>public&nbsp;void&nbsp;setReservationPeriod(int&nbsp;reservationPeriod)</pre>
+<div class="block">Method is used to set  total reservation period in hour</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>reservationPeriod</code> - reservation period</dd>
+</dl>
+</li>
+</ul>
+<a name="setReservDateTime-java.time.LocalDateTime-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setReservDateTime</h4>
+<pre>public&nbsp;void&nbsp;setReservDateTime(java.time.LocalDateTime&nbsp;reservDateTime)</pre>
+<div class="block">Method is used to set reservation date and time</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>reservDateTime</code> - reservation date and time</dd>
+</dl>
+</li>
+</ul>
+<a name="setReturnDateTime-java.time.LocalDateTime-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setReturnDateTime</h4>
+<pre>public&nbsp;void&nbsp;setReturnDateTime(java.time.LocalDateTime&nbsp;returnDateTime)</pre>
+<div class="block">Method is used to set returning date and time of vehicle</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>returnDateTime</code> - return date and time of vehicle</dd>
+</dl>
+</li>
+</ul>
+<a name="setVehicle-Vehicle-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>setVehicle</h4>
+<pre>public&nbsp;void&nbsp;setVehicle(Vehicle&nbsp;vehicle)</pre>
+<div class="block">Method is used to set the object of Vehicle</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>vehicle</code> - object of Vehicle</dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+</body>
+</html>
